@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-06-26 22:45:15
+/* Smarty version 3.1.44, created on 2022-07-01 22:25:10
   from 'C:\Users\mohamed\Desktop\università\3° Anno\programmazione per il web\TasteIt-main\src\templates\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_62b8c55b26c311_44185937',
+  'unifunc' => 'content_62bf5826741f35_50327229',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9502e29678c78f419f29fd4caf162023b7c6ec62' => 
     array (
       0 => 'C:\\Users\\mohamed\\Desktop\\università\\3° Anno\\programmazione per il web\\TasteIt-main\\src\\templates\\home.tpl',
-      1 => 1656276290,
+      1 => 1656702469,
       2 => 'file',
     ),
   ),
@@ -20,26 +20,26 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62b8c55b26c311_44185937 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62bf5826741f35_50327229 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_78057765462b8c55b0dae74_30724509', 'title');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_168986045762bf58266e5409_36802394', 'title');
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_45942611962b8c55b0e0741_06461652', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_181606795062bf58266e75f4_24160488', 'body');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'src/templates/base/base.tpl');
 }
 /* {block 'title'} */
-class Block_78057765462b8c55b0dae74_30724509 extends Smarty_Internal_Block
+class Block_168986045762bf58266e5409_36802394 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'title' => 
   array (
-    0 => 'Block_78057765462b8c55b0dae74_30724509',
+    0 => 'Block_168986045762bf58266e5409_36802394',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -49,18 +49,18 @@ Home<?php
 }
 /* {/block 'title'} */
 /* {block 'body'} */
-class Block_45942611962b8c55b0e0741_06461652 extends Smarty_Internal_Block
+class Block_181606795062bf58266e75f4_24160488 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_45942611962b8c55b0e0741_06461652',
+    0 => 'Block_181606795062bf58266e75f4_24160488',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
-    <div class="hero-wrap" style="background-image: url('../../src/assets/images/cibo.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap" style="background-image: url('../../src/assets/images/image_44.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -71,7 +71,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                             <a class="navbar-brand" style="color: white"> <span>Benvenuto: <?php echo $_smarty_tpl->tpl_vars['user']->value->getName();?>
 </span></a>
                         <?php }?>
-                        <h1 class="mb-4">Eait<span>It</span>.</h1>
+                        <h1 class="mb-4">Eat<span>It</span>.</h1>
                         <p><a href="/products" class="btn btn-primary py-2 px-4">Prodotti</a> <a href="/aboutUs" class="btn btn-white btn-outline-white py-2 px-4">Leggi di più</a></p>
                      </div>
                 </div>
@@ -127,17 +127,17 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
     <section class="ftco-section ftco-no-pb">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(../../src/assets/images/Restaurant.jpg);">
+                <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(../../src/assets/images/image_45.jpg);">
                 </div>
                 <div class="col-md-6 wrap-about pl-md-5">
                     <div class="heading-section">
-                        <span class="subheading">Since 1970</span>
-                        <h2 class="mb-4">Prova la cucina del ristorante più vecchio di Montepulciano</h2>
+                        <span class="subheading">Since 1991</span>
+                        <h2 class="mb-4">Prova la cucina di EatIt</h2>
 
-                        <p>Il nostro locale accogliente, ricco di storia e di tradizione, il profumo del basilico appena colto, la bontà dei nostri ingredienti saranno per voi un'esperienza da ricordare. Venite a trovarci, vi stupiremo!</p>
+                        <p>Il nostro locale accogliente, ricco di storia e di tradizione, il profumo del mare  appena colto, la bontà dei nostri ingredienti saranno per voi un'esperienza da ricordare. Venite a trovarci, vi aspettiamo !</p>
                         <p>Da oggi puoi provare la nostra cucina direttamente a casa tua. Comincia subito ad ordinare per ricevere ogni mese esclusivi coupon.</p>
                         <p class="year">
-                            <strong class="number" data-number="51"></strong>
+                            <strong class="number" data-number="31"></strong>
                             <span>Anni di Esperienza</span>
                         </p>
                     </div>

@@ -3,7 +3,7 @@
         <div class="row mb-5">
             <div class="col-sm-12 col-md">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2 logo"><a href="#">Taste<span>It</span></a></h2>
+                    <h2 class="ftco-heading-2 logo"><a href="#">Eat<span>It</span></a></h2>
                     <p>Orari di consegna:</p>
                     <p>Dal Martedi alla Domenica</p>
                     <p>Dalle 18:20 alle 22:00</p>
@@ -27,7 +27,7 @@
                     <h2 class="ftco-heading-2">Contattaci</h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><span class="icon fa fa-map marker"></span><span class="text">Via {$restaurant->getAddress()->getStreet()} {$restaurant->getAddress()->getHomeNumber()}, {$restaurant->getAddress()->getCity()}</span></li>
+                            <li><span class="icon fa fa-map marker"></span><span class="text"> {$restaurant->getAddress()->getStreet()} {$restaurant->getAddress()->getHomeNumber()}, {$restaurant->getAddress()->getCity()}</span></li>
                             <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">{$restaurant->getPhone()}</span></a></li>
                             <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">{$restaurant->getEmail()}</span></a></li>
                         </ul>

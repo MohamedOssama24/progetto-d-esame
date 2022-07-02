@@ -7,7 +7,7 @@ use Pecee\Http\Request;
 
 class OrderMiddleware implements IMiddleware{
 
-    public function handle(Request $request): void
+    public function handle(Request $request): void // verifica se hai un corrello vuoto o no
     {
         $session=Session::getInstance();
         if ($session->loadCart()->getProducts()==[]){

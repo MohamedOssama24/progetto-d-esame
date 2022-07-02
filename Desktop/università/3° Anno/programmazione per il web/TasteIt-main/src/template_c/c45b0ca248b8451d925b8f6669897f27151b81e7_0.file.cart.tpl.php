@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-05-01 13:51:10
+/* Smarty version 3.1.44, created on 2022-07-01 22:26:34
   from 'C:\Users\mohamed\Desktop\università\3° Anno\programmazione per il web\TasteIt-main\src\templates\cart\cart.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_626e742ee18a85_33887252',
+  'unifunc' => 'content_62bf587a788a45_22608031',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c45b0ca248b8451d925b8f6669897f27151b81e7' => 
     array (
       0 => 'C:\\Users\\mohamed\\Desktop\\università\\3° Anno\\programmazione per il web\\TasteIt-main\\src\\templates\\cart\\cart.tpl',
-      1 => 1637925992,
+      1 => 1656617401,
       2 => 'file',
     ),
   ),
@@ -20,28 +20,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_626e742ee18a85_33887252 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62bf587a788a45_22608031 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_921689341626e742ec8b750_59439684', 'title');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_38353423862bf587a72f596_04062403', 'title');
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1250154248626e742ec8c1b7_63609045', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_89391640062bf587a730fa5_79003960', 'body');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'src/templates/base/base.tpl');
 }
 /* {block 'title'} */
-class Block_921689341626e742ec8b750_59439684 extends Smarty_Internal_Block
+class Block_38353423862bf587a72f596_04062403 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'title' => 
   array (
-    0 => 'Block_921689341626e742ec8b750_59439684',
+    0 => 'Block_38353423862bf587a72f596_04062403',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -51,12 +51,12 @@ Carrello<?php
 }
 /* {/block 'title'} */
 /* {block 'body'} */
-class Block_1250154248626e742ec8c1b7_63609045 extends Smarty_Internal_Block
+class Block_89391640062bf587a730fa5_79003960 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_1250154248626e742ec8c1b7_63609045',
+    0 => 'Block_89391640062bf587a730fa5_79003960',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -138,7 +138,7 @@ $_smarty_tpl->tpl_vars['product']->do_else = false;
                                 </form>
 
                                 <input type="text" name="quantity" class="input-number"  data-min="1" data-max="100" value="<?php echo $_smarty_tpl->tpl_vars['product']->value[1];?>
-" style="width: 2em">
+" style="width: 2em " readonly>
 
                                 <form action="/carts/<?php echo $_smarty_tpl->tpl_vars['cart']->value->getId();?>
 /products/<?php echo $_smarty_tpl->tpl_vars['product']->value[0]->getId();?>

@@ -4,7 +4,7 @@
             <div class="col-md-6 d-flex align-items-center">
                 <p class="mb-0 phone pl-md-2">
                     <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> 3208976543</a>
-                    <a href="#"><span class="fa fa-paper-plane mr-1"></span> tasteit@gmail.com</a>
+                    <a href="#"><span class="fa fa-paper-plane mr-1"></span> tasteIt@gmail.com</a>
                 </p>
             </div>
             <div class="col-md-6 d-flex justify-content-md-end">
@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 
     <div class="container" style="justify-content: space-between">
-        <a class="navbar-brand" href="/home">Taste<span>It</span></a>
+        <a class="navbar-brand" href="/home">Eat<span>It</span></a>
 
         {if isset($cartId)}
             <div class="order-lg-last btn-group">

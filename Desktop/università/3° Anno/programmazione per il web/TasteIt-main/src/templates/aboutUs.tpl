@@ -5,7 +5,7 @@
 
 
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('../../src/assets/images/cibo.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('../../src/assets/images/image_44.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -60,19 +60,20 @@
     <section class="ftco-section ftco-no-pb">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url('../../src/assets/images/image_4.jpg');">
+                <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url('../../src/assets/images/image_46.jpg');">
                 </div>
                 <div class="col-md-6 wrap-about pl-md-5">
                     <div class="heading-section">
-                        <span class="subheading">Dal 1970</span>
-                        <h2 class="mb-4">Prova il nostro ristorante TasteIt  </h2>
+                        <span class="subheading">Dal 1991</span>
+                        <h2 class="mb-4">Prova EatIt  </h2>
 
 
-                        <p>Arrivare nel cuore di Montepulciano, città dalle sensazioni magiche, già di per sé rappresenta un viaggio attraverso i sensi. La vista, l’olfatto, l’udito. Dopo qualche serpentina in un’erta caratterizzata da un panorama mozzafiato che non nasconde certo il Tempio di San Biagio, capolavoro del Sangallo, ecco che passando da una porta, fiancheggiando la Fortezza di Montepulciano, baluardo della cittadina del Poliziano, si incontra TasteIt.
+                        <p>Il Ristorante EatIt è un punto di riferimento a Pescara per tutti gli amanti della buona cucina e per tutti coloro che prediligono gustare le specialità di pesce, carne , pizza . Nel locale ogni giorno viene servito pesce fresco e tutti gli ospiti vengono accolti con gentilezza e cortesia.
 
-                            Mohamed , Marco ed Antonio  dopo tanti anni nel settore dell’enogastronomia e della ristorazione, hanno deciso di dare vita a questo piccolo e accogliente locale dove chi vi arriva può completare il viaggio dei sensi a Montepulciano unendo ai precedenti tre il tatto e il gusto da ritrovare nei semplici, ma prelibati piatti offerti.</p>
+                           Il ristorante si trova sulle splendide colline pescaresi.
+                            Mohamed , Marco ed Antonio  dopo tanti anni nel settore della ristorazione, hanno deciso di dare vita a questo piccolo e accogliente locale dove chi vi arriva può completare il viaggio dei sensi a Pescara unendo ai precedenti tre il tatto e il gusto da ritrovare nei semplici, ma prelibati piatti offerti.</p>
                         <p class="year">
-                            <strong class="number" data-number="51">0</strong>
+                            <strong class="number" data-number="31">0</strong>
                             <span>Anni di esperienza</span>
                         </p>
                     </div>

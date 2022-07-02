@@ -63,7 +63,7 @@
                                     </div>
                                 </form>
 
-                                <input type="text" name="quantity" class="input-number"  data-min="1" data-max="100" value="{$product[1]}" style="width: 2em">
+                                <input type="text" name="quantity" class="input-number"  data-min="1" data-max="100" value="{$product[1]}" style="width: 2em " readonly>
 
                                 <form action="/carts/{$cart->getId()}/products/{$product[0]->getId()}" method="POST" style="float: right">
                                     <div class="button plus">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-05-25 16:30:57
+/* Smarty version 3.1.44, created on 2022-07-01 22:26:18
   from 'C:\Users\mohamed\Desktop\università\3° Anno\programmazione per il web\TasteIt-main\src\templates\user\profile.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_628e3da17f5f45_76041537',
+  'unifunc' => 'content_62bf586a4a5bf5_73254781',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '17a79c6749df9d7444e2235e63c13014c1c0cf8a' => 
     array (
       0 => 'C:\\Users\\mohamed\\Desktop\\università\\3° Anno\\programmazione per il web\\TasteIt-main\\src\\templates\\user\\profile.tpl',
-      1 => 1637925992,
+      1 => 1656536242,
       2 => 'file',
     ),
   ),
@@ -20,26 +20,26 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_628e3da17f5f45_76041537 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62bf586a4a5bf5_73254781 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1810017985628e3da1702c41_42171698', 'title');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_118659216662bf586a461875_96285569', 'title');
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_413331095628e3da1705c28_01686245', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_48553115862bf586a463699_67387166', 'body');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'src/templates/base/base.tpl');
 }
 /* {block 'title'} */
-class Block_1810017985628e3da1702c41_42171698 extends Smarty_Internal_Block
+class Block_118659216662bf586a461875_96285569 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'title' => 
   array (
-    0 => 'Block_1810017985628e3da1702c41_42171698',
+    0 => 'Block_118659216662bf586a461875_96285569',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -49,18 +49,18 @@ Profilo<?php
 }
 /* {/block 'title'} */
 /* {block 'body'} */
-class Block_413331095628e3da1705c28_01686245 extends Smarty_Internal_Block
+class Block_48553115862bf586a463699_67387166 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_413331095628e3da1705c28_01686245',
+    0 => 'Block_48553115862bf586a463699_67387166',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
-    <div class="hero-wrap" style="background-image: url('https://en.free-wallpapers.su/data/media/2319/big/fd0251.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap" style="background-image: url('https://wips.plug.it/cips/italiaonline.it/blog/cms/2020/04/marketing-ristoranti.jpg?w=750&h=422&a=c');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">

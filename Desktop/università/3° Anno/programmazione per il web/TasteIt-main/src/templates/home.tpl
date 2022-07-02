@@ -1,7 +1,7 @@
 {extends file='src/templates/base/base.tpl'}
 {block name=title}Home{/block}
 {block name=body}
-    <div class="hero-wrap" style="background-image: url('../../src/assets/images/cibo.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap" style="background-image: url('../../src/assets/images/image_44.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -11,7 +11,7 @@
                         {if isset($user)}
                             <a class="navbar-brand" style="color: white"> <span>Benvenuto: {$user->getName()}</span></a>
                         {/if}
-                        <h1 class="mb-4">Eait<span>It</span>.</h1>
+                        <h1 class="mb-4">Eat<span>It</span>.</h1>
                         <p><a href="/products" class="btn btn-primary py-2 px-4">Prodotti</a> <a href="/aboutUs" class="btn btn-white btn-outline-white py-2 px-4">Leggi di più</a></p>
                      </div>
                 </div>
@@ -67,17 +67,17 @@
     <section class="ftco-section ftco-no-pb">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(../../src/assets/images/Restaurant.jpg);">
+                <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(../../src/assets/images/image_45.jpg);">
                 </div>
                 <div class="col-md-6 wrap-about pl-md-5">
                     <div class="heading-section">
-                        <span class="subheading">Since 1970</span>
-                        <h2 class="mb-4">Prova la cucina del ristorante più vecchio di Montepulciano</h2>
+                        <span class="subheading">Since 1991</span>
+                        <h2 class="mb-4">Prova la cucina di EatIt</h2>
 
-                        <p>Il nostro locale accogliente, ricco di storia e di tradizione, il profumo del basilico appena colto, la bontà dei nostri ingredienti saranno per voi un'esperienza da ricordare. Venite a trovarci, vi stupiremo!</p>
+                        <p>Il nostro locale accogliente, ricco di storia e di tradizione, il profumo del mare  appena colto, la bontà dei nostri ingredienti saranno per voi un'esperienza da ricordare. Venite a trovarci, vi aspettiamo !</p>
                         <p>Da oggi puoi provare la nostra cucina direttamente a casa tua. Comincia subito ad ordinare per ricevere ogni mese esclusivi coupon.</p>
                         <p class="year">
-                            <strong class="number" data-number="51"></strong>
+                            <strong class="number" data-number="31"></strong>
                             <span>Anni di Esperienza</span>
                         </p>
                     </div>

@@ -1,6 +1,6 @@
 ## Taste It
 
-![alt text](https://wallpapercave.com/wp/wp1874159.jpg)
+![alt text](https://www.scattidigusto.it/wp-content/uploads/2021/06/ristoranti-di-mare-Lazio.jpg)
 
   Questo progetto è stato realizzato con lo scopo di aiutare il ristorante Taste It ad avere un propria applicazione web,
   attraverso la quale poter far conoscere i suoi prodotti a tutti coloro che amano la cucina italiana.

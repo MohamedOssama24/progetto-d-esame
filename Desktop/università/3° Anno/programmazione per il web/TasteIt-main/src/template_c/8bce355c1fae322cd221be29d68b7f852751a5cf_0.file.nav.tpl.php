@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-04-28 09:22:02
+/* Smarty version 3.1.44, created on 2022-07-01 22:25:10
   from 'C:\Users\mohamed\Desktop\università\3° Anno\programmazione per il web\TasteIt-main\src\templates\base\nav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_626a409a606285_66908587',
+  'unifunc' => 'content_62bf5826ae8217_28844933',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8bce355c1fae322cd221be29d68b7f852751a5cf' => 
     array (
       0 => 'C:\\Users\\mohamed\\Desktop\\università\\3° Anno\\programmazione per il web\\TasteIt-main\\src\\templates\\base\\nav.tpl',
-      1 => 1637925992,
+      1 => 1656704149,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_626a409a606285_66908587 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62bf5826ae8217_28844933 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="wrap">
     <div class="container">
         <div class="row">
             <div class="col-md-6 d-flex align-items-center">
                 <p class="mb-0 phone pl-md-2">
                     <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> 3208976543</a>
-                    <a href="#"><span class="fa fa-paper-plane mr-1"></span> tasteit@gmail.com</a>
+                    <a href="#"><span class="fa fa-paper-plane mr-1"></span> tasteIt@gmail.com</a>
                 </p>
             </div>
             <div class="col-md-6 d-flex justify-content-md-end">
@@ -42,7 +42,7 @@ function content_626a409a606285_66908587 (Smarty_Internal_Template $_smarty_tpl)
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 
     <div class="container" style="justify-content: space-between">
-        <a class="navbar-brand" href="/home">Taste<span>It</span></a>
+        <a class="navbar-brand" href="/home">Eat<span>It</span></a>
 
         <?php if ((isset($_smarty_tpl->tpl_vars['cartId']->value))) {?>
             <div class="order-lg-last btn-group">

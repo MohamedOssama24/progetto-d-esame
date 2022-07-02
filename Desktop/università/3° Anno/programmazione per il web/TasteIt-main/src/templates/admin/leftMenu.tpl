@@ -34,7 +34,7 @@
     <div class="sidebar" data-color="white" data-active-color="danger">
         <div class="logo" style="display: flex; justify-content: center; background-color: #A23F25">
             <a class="simple-text logo-normal" style="color:white">
-                TasteIt
+                EatIt
             </a>
         </div>
 

@@ -42,7 +42,7 @@ SimpleRouter::redirect("/", "/home");
     SimpleRouter::get("/categories/{categoryId}/products", [CategoryController::class, "getCategoryProducts"]);
 
 
-
+// si passa attraverso il middleware per poter verificare se il ristorante loggato oppure l'utente
 SimpleRouter::group(['middleware' => \App\Controllers\AuthMiddleware::class], function () {
 
 
@@ -72,6 +72,9 @@ SimpleRouter::group(['middleware' => \App\Controllers\AuthMiddleware::class], fu
     SimpleRouter::get("/favourites/{favId}",[FavouritesController::class, "getFavouritesProducts"])->name('favourites');
     SimpleRouter::post("/carts/{cartId}/products",[FavouritesController::class, "addToCartFromFav"]);
     SimpleRouter::delete("/favourites/{favId}/products/{productId}",[FavouritesController::class, "deleteProductFromFav"]);
+    SimpleRouter::group(['middleware' => \App\Controllers\OrderMiddleware::class], function () {
+        SimpleRouter::get("/cart/checkout", [OrderController::class, "checkout"])->name('checkout');
+    });
 });
 
 SimpleRouter::group(['middleware' => \App\Controllers\AdminMiddleware::class], function () {
@@ -102,9 +105,7 @@ SimpleRouter::group(['middleware' => \App\Controllers\AdminMiddleware::class], f
     SimpleRouter::post("/admin/customers", [AdminCustomerController::class, "sendCoupon"]);
 });
 
-SimpleRouter::group(['middleware' => \App\Controllers\OrderMiddleware::class], function () {
-    SimpleRouter::get("/cart/checkout", [OrderController::class, "checkout"])->name('checkout');
-});
+
 
 
 
